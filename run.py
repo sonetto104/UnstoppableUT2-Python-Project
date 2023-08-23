@@ -32,8 +32,8 @@ SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 
 # Open Google Sheets documents
-SHEET = GSPREAD_CLIENT.open('Unstoppable UT2 Tracker Spreadsheet')
-USERNAME_PASSWORD_DATA_SHEET = GSPREAD_CLIENT.open('Unstoppable UT2 Username and Password Data Spreadsheet')
+SHEET = GSPREAD_CLIENT.open('UnstoppableUT2 Tracker Spreadsheet')
+USERNAME_PASSWORD_DATA_SHEET = GSPREAD_CLIENT.open('UnstoppableUT2 Username and Password Data Spreadsheet')
 
 # Get email address from environment variables
 email_address = os.getenv("EMAIL_ADDRESS")
