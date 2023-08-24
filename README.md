@@ -75,6 +75,21 @@ The banner was coloured with a quasi-gradient effect using the Rich library.
 
 To break up large chunks of text and make the presented information more easily digestible, different types of messages were colour coded.
 
+![Colour Samples](https://raw.githubusercontent.com/sonetto104/UnstoppableUT2-Python-Project/main/colour_samples.png?token=GHSAT0AAAAAACGBXZVXHBCYPAL4HLJUELKCZHHHHUQ)
+
+Default text is white.
+Command messages are yellow.
+Success messages are green.
+User choices and workouts are in blue and magenta.
+References to the user directly are magenta.
+Error messages are red.
+
+
+***Table Formatting***
+
+Tables displaying user data about previously logged workouts tended to be quite tangled looking in the console. For this reason, I used tabulate to colour the tables and make them easier for the user to read.
+
+![Table Sample](https://raw.githubusercontent.com/sonetto104/UnstoppableUT2-Python-Project/main/table_sample.png?token=GHSAT0AAAAAACGBXZVXRCCESQQQFKF4XH4CZHHHLMA)
 
 
 
