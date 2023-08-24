@@ -148,7 +148,7 @@ def type_username():
     Here is where the user will enter
     their username.
     """
-    type_username_text = f"{Y}Please type your username below.\n{W}It must contain a minimum of five characters.\nIt must contain only lowercase letters, no spaces, no numbers and\n no special characters or symbols.\n"
+    type_username_text = f"{Y}Please type your username below.\n{W}It must contain a minimum of five characters.\nIt must contain only lowercase letters, no spaces, no numbers and\nno special characters or symbols.\n"
     print_incrementally(console, type_username_text)
     while True:
         username = input(f"{Y}Please type your username here: ")
@@ -177,7 +177,7 @@ def type_new_password():
     """
     This is where the user will type their password.
     """
-    new_password_text = f"{Y}Please type your password below.\n{W}It must contain a minimum of five characters.\nIt must contain only lowercase letters, no spaces, no numbers and\n no special characters or symbols.\n"
+    new_password_text = f"{Y}Please type your password below.\n{W}It must contain a minimum of five characters.\nIt must contain only lowercase letters, no spaces, no numbers and\nno special characters or symbols.\n"
     print_incrementally(console, new_password_text)
     while True:
         password = input(f"{Y}Please type your password here: ")
