@@ -219,7 +219,7 @@ def search_file(username):
             files.extend(response.get('files', []))
             page_token = response.get('nextPageToken', None)
             if not files:
-                print(f"{G}Thanks for signing up {username}!\n")
+                print(f"{G}Thanks for signing up {M}{username}!\n")
                 create_new_user_workbook(username)
                 user_workout_choice(username)
             if page_token is None:
