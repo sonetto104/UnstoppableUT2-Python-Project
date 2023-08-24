@@ -331,10 +331,14 @@ def check_password(username, password):
     worksheet = USERNAME_PASSWORD_DATA_SHEET.sheet1
     row = None
     try:
-        row = worksheet.find(username).row
+        cell = worksheet.find(username)
+        row = cell.row
+        stored_password = worksheet.cell(row, 2).value
+        # row = worksheet.find(username).row
     except gspread.exceptions.CellNotFound:
         return False
-    if worksheet.cell(row, 2).value == password:
+    # if worksheet.cell(row, 2).value == password:
+    if stored_password == password:
         return True
     else:
         return False
