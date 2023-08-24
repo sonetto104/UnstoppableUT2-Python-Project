@@ -579,7 +579,7 @@ def input_workout_duration_info():
     data for their workout duration.
     """
     while True:
-        input_duration_text = f"{Y}Input your workout duration below\n{W}Your time should be entered in this format - 00:00:00\nE.g. if your workout was an hour and twenty minutes long, you would enter\n 01:20:00.\nYour value for hours must be less than 24. Your value for minutes must be less than 60. Your value for seconds must be less than 60.\n"
+        input_duration_text = f"{Y}Input your workout duration below\n{W}Your time should be entered in this format - 00:00:00\nE.g. if your workout was an hour and twenty minutes long, you would enter\n01:20:00.\nYour value for hours must be less than 24. Your value for minutes must be less than 60. Your value for seconds must be less than 60.\n"
         print_incrementally(console, input_duration_text)
         time_data = input(f"{Y}Please input your workout duration here: ")
         if time_data:
