@@ -2,7 +2,7 @@
 
 ![Unstoppable UT2 Cover](https://raw.githubusercontent.com/sonetto104/UnstoppableUT2-Python-Project/main/unstoppable_ut2_screenshot.png?token=GHSAT0AAAAAACGBXZVWYR7FH6YHMZHPAD4QZHHGWYA)
 
-[Link Text]
+[Live Site](https://unstoppableut2-python-f5ad348cd041.herokuapp.com/)
 
 ## Purpose
 "Unstoppable UT2" was constructed as a requirement for Code Institute's Diploma in Full Stack Software Development course. Its purpose is to show that I have achieved a basic command of Python and can use it to adapt and combine functions that can manipulate data to solve given problems within a possible real world context.
