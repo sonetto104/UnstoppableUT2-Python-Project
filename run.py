@@ -462,7 +462,7 @@ def display_all_previous_workout_entries(worksheet, username):
     table = tabulate(df, headers='keys', tablefmt='grid')
 
     # Apply color to the entire table
-    colored_table = colored(table, 'red', 'on_magenta')
+    colored_table = colored(table, 'white', 'on_magenta')
 
     # Print the colorized table
     print(colored_table)
