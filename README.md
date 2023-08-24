@@ -1,5 +1,9 @@
 ## README Document for Code Institute Portfolio Project 3 "Unstoppable UT2"
 
+![Unstoppable UT2 Cover](https://raw.githubusercontent.com/sonetto104/UnstoppableUT2-Python-Project/main/unstoppable_ut2_screenshot.png?token=GHSAT0AAAAAACGBXZVWYR7FH6YHMZHPAD4QZHHGWYA)
+
+[Link Text]
+
 ## Purpose
 "Unstoppable UT2" was constructed as a requirement for Code Institute's Diploma in Full Stack Software Development course. Its purpose is to show that I have achieved a basic command of Python and can use it to adapt and combine functions that can manipulate data to solve given problems within a possible real world context.
 
@@ -19,7 +23,7 @@ I used Google's Drive API and the gspread library to write data to, read data fr
 
 Below you can see my rough plan for the flow of logic in this project. It is not fully detailed in that it doesn't include the data validation functions or all the possible applications of some functions to different worksheets, but I still did largely stick to this plan.
 
-View flowchart here: https://drive.google.com/file/d/1lZLYNeJ9SZiJ3miG6Gne_i8ZOmBKFm_7/view?usp=sharing
+![Unstoppable UT2 Logic Flowchart](https://raw.githubusercontent.com/sonetto104/UnstoppableUT2-Python-Project/main/ut2flowchart.jpeg?token=GHSAT0AAAAAACGBXZVX26ZMV4DENPOEIVGEZHHGZLA)
 
 
 ## Project Features
@@ -54,6 +58,26 @@ Note here the use of regular expressions so that time data cannot be inputted in
 def main() -
 
 In main there is a while loop so that the user always has the option to run some other part of the program before closing it. This means the user could access several of the programs main functions in one sitting rather than having to refresh the page after each time they've completed an operation.
+
+## Design
+
+**Colour**
+
+Though this was just an exercise in developing a simple terminal based CLI application, I experimented with the Rich and Colorama libraries to make the project visually appealing and engaging for the user.
+
+***Banner***
+The banner was coloured with a quasi-gradient effect using the Rich library.
+
+![Unstoppable UT2 Banner](https://raw.githubusercontent.com/sonetto104/UnstoppableUT2-Python-Project/main/unstoppable_ut2_screenshot.png?token=GHSAT0AAAAAACGBXZVWYR7FH6YHMZHPAD4QZHHGWYA)
+
+
+***Coloured Messages***
+
+To break up large chunks of text and make the presented information more easily digestible, different types of messages were colour coded.
+
+
+
+
 
 ## Testing
 
