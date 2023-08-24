@@ -91,9 +91,6 @@ Tables displaying user data about previously logged workouts tended to be quite 
 
 ![Table Sample](https://raw.githubusercontent.com/sonetto104/UnstoppableUT2-Python-Project/main/table_sample.png?token=GHSAT0AAAAAACGBXZVXRCCESQQQFKF4XH4CZHHHLMA)
 
-
-
-
 ## Testing
 
 ***PEP8 Validation***
